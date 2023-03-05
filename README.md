@@ -1,6 +1,6 @@
 ### JavaScript assignment 4
 
-This assignment entails testing of one's knowledge and understanding on arrays and functions in JavaScript:
+This assignment entails the testing of one's knowledge and understanding on arrays and functions in JavaScript:
 
 #### Arrays 
 - definition, syntax, and examples
@@ -10,7 +10,7 @@ This assignment entails testing of one's knowledge and understanding on arrays a
 - Accessing elements in an array eg .lenght(), index
 - finding/knowing the existence of an element in an array eg indexOf(), includes()
 
-#### Function 
+#### Functions
 - finding/knowing the existence of an object in an array eg find()
 - defining a function eg function declaration, function expression - arrow function expression
 
