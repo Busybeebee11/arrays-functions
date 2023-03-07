@@ -79,24 +79,12 @@
 //     Write a function that accepts an array of numbers as an argument. Return the maximum value in the array.
 //     e.g., max([4, 5, 10, -2]) // maximum value is 10
 //  */
+const getMaxValue = (numbers) => Math.max(...numbers);
 
-// function findMax(arr) {
-//   let max = arr[0];
-//   for (let i = 1; i < arr.length; i++) {
-//     if (arr[i] > max) {
-//       max = arr[i];
-//     }
-//   }
-//   return max > 20 ? 20 : max;
-// }
+const numbers = [2, 4, 6, 8];
+const max = getMaxValue(numbers);
 
-// let myArray = [4, 5, 10, -2];
-// let maxNumber = findMax(myArray);
-// console.log("max([4, 5, 10, -2]) " + "maximum value is " + maxNumber); // Output: 10
-
-// let myOtherArray = [4, 5, 10, 30];
-// let maxNumber2 = findMax(myOtherArray);
-// console.log("max([4, 5, 10, 30]) " + "maximum value is " + maxNumber2); // Output: 20
+console.log("max([2, 4, 6, 8]) " + "maximum value is " + max); // Output: maximum value is 8
 
 
 
@@ -109,9 +97,9 @@
 // 		valTimesIndex([5,10,15]) // [0,10,30]
 //  */
 
-// function valTimesIndex(arr) {
-//   return arr.map((val, index) => val * index);
-// }
+function valTimesIndex(arr) {
+  return arr.map((num, index) => num * index);
+}
 
-// console.log(valTimesIndex([4, 8, 12, 16])); // Returns [0, 8, 24, 48]
-// console.log(valTimesIndex([2, 4, 6, 8, 10])); // Returns [0, 4, 12, 24, 40]
+console.log(valTimesIndex([3, 5, 7])); // Returns [0, 5, 14]
+console.log(valTimesIndex([4, 8, 12])); // Returns [0, 8, 24]
